@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15168" started-at="2021-04-01T17:15:47Z" finished-at="2021-04-01T17:16:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15168" started-at="2021-04-01T17:15:47Z" finished-at="2021-04-01T17:16:03Z">
+      <class name="com.xyz.hrms.testCases.Test_001">
+        <test-method status="PASS" signature="Validlogin()[pri:0, instance:com.xyz.hrms.testCases.Test_001@68be2bc2]" name="Validlogin" duration-ms="15098" started-at="2021-04-01T17:15:48Z" finished-at="2021-04-01T17:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validlogin -->
+      </class> <!-- com.xyz.hrms.testCases.Test_001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
