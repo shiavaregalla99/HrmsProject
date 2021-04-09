@@ -6,8 +6,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.xyz.hrms.Base.BaseClass;
+import com.xyz.hrms.utils.CommonMethods;
 
-public class LoginPageElements extends BaseClass {
+public class LoginPageElements extends CommonMethods {
 	
 	//page object model without page factory
 // WebElement username= driver.findElement(By.id("txtUsername"));

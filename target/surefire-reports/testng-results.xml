@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19827" started-at="2021-04-09T16:32:48Z" finished-at="2021-04-09T16:33:08Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19827" started-at="2021-04-09T16:32:48Z" finished-at="2021-04-09T16:33:08Z">
+      <class name="com.xyz.hrms.testCases.Test_001">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.xyz.hrms.testCases.Test_001@32d992b2]" name="generateReport" is-config="true" duration-ms="431" started-at="2021-04-09T16:32:48Z" finished-at="2021-04-09T16:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.xyz.hrms.testCases.Test_001@32d992b2]" name="setUp" is-config="true" duration-ms="11325" started-at="2021-04-09T16:32:48Z" finished-at="2021-04-09T16:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Validlogin()[pri:0, instance:com.xyz.hrms.testCases.Test_001@32d992b2]" name="Validlogin" duration-ms="5881" started-at="2021-04-09T16:33:00Z" finished-at="2021-04-09T16:33:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validlogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.xyz.hrms.testCases.Test_001@32d992b2]" name="tearDown" is-config="true" duration-ms="919" started-at="2021-04-09T16:33:06Z" finished-at="2021-04-09T16:33:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="writeReport()[pri:0, instance:com.xyz.hrms.testCases.Test_001@32d992b2]" name="writeReport" is-config="true" duration-ms="823" started-at="2021-04-09T16:33:07Z" finished-at="2021-04-09T16:33:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeReport -->
+      </class> <!-- com.xyz.hrms.testCases.Test_001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

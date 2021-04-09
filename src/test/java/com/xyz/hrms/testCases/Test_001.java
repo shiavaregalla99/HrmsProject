@@ -8,11 +8,11 @@ import com.xyz.hrms.Base.PageIntializer;
 import com.xyz.hrms.pages.LoginPageElements;
 import com.xyz.hrms.utils.CommonMethods;
 
-public class Test_001 extends PageIntializer {
+public class Test_001 extends CommonMethods {
 	
-	@Test
+	@Test(alwaysRun = true)
 	public void Validlogin() {
-		BaseClass.setUp();
+		
 		CommonMethods.sendText(loginpage.username,"admin");
 		CommonMethods.sendText(loginpage.password,"admin123");
 		CommonMethods.sendText(loginpage.username,"admin");
@@ -24,7 +24,7 @@ public class Test_001 extends PageIntializer {
 		
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void inValidUsername() {
 		BaseClass.setUp();
 		
@@ -37,7 +37,7 @@ public class Test_001 extends PageIntializer {
 		
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void inValidpassword() {
 		BaseClass.setUp();
 		
@@ -50,7 +50,7 @@ public class Test_001 extends PageIntializer {
 		
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void invalidCerenditals() {
 		BaseClass.setUp();
 		
